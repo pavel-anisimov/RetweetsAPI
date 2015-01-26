@@ -1,0 +1,75 @@
+body {
+  padding: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px auto;
+  width: 980px;
+  line-height: 1.2em;
+}
+a {
+  color: #00b7ff;
+}
+header,
+section {
+  padding: 20px 0;
+  width: 460px;
+  margin: auto;
+}
+.tweetBlock {
+  float: left;
+  display: inline;
+  width: 460px;
+  height: 520px;
+  background: #f4f4f4;
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+  margin: 0 10px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+.tweet {
+  padding: 5px;
+  margin-bottom: 5px;
+  width: 250px;
+  width: calc(100% - 10px);
+  font-size: 10px;
+  text-align: left;
+  display: inline-block;
+  border: 1px #808080 solid;
+  border-radius: 5px;
+}
+.tweet > .body {
+  margin: 5px 0 5px 5px;
+  width: 100%;
+  float: left;
+}
+.head > .icon {
+  margin: 0 5px 5px 0;
+  width: 45px;
+  float: left;
+  background-color: rgba(97,124,128,0.39);
+  height: 45px;
+  border-radius: 3px;
+}
+.head > .screen_name {
+  font-weight: normal;
+}
+.head > .retweeted {
+  font-weight: normal;
+}
+.head > .screen_name,
+.head > .time {
+  font-weight: normal;
+  color: #808080;
+}
+.head > div {
+  line-height: 16px;
+}
+.body .message {
+  font-weight: normal;
+}
+.tweet:hover {
+  background-color: #cff;
+  cursor: pointer;
+}
